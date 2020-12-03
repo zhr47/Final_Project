@@ -5268,6 +5268,20 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-radius: 0.6rem;
 }
 
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 15px 15px 0px 0px
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
 @media (min-width: 576px) {
   .jumbotron {
     padding: 4rem 2rem;
